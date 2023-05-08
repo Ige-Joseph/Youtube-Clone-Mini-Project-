@@ -1,0 +1,35 @@
+.header {background-color: rgb(255, 255, 255); 
+  height: 50px; display: grid; grid-template-columns: 1.2fr 3fr;
+   align-items: center; position: fixed; top: 0; }
+
+
+ 
+
+.left { width: 250px;  }
+
+.hamburger { width: 30px; }
+
+.logo { width: 80px; height: 30px;}
+
+
+
+
+.right {  display: flex;}
+
+
+.search-bar::placeholder { font-family: ROBOTO; }
+.search-bar {  flex: 1; height: 20px; width: 0; border-radius: 10px; 
+  padding-left: 10px; border-width: 1px;
+   
+   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.1);
+   border-style: solid;}
+
+.button-image { height: 24px; border-radius: 2px; 
+
+border-width: 1px; border-color: grey; border-style: solid;
+ margin-left: -10px;}
+
+.searchimage { height: 20px; }
+
+
+.image-1{ width: 850px }
